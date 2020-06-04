@@ -1,32 +1,3 @@
-body {
-    background: red;
-}*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -40,34 +11,155 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
+time, mark, audio, video*/
+
+/*
+{	margin: 0;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-/*article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    vertical-align: baseline;
+    border: solid 2px red
 }*/
+
+ 
+html{
+     font-size: 62.5%;
+     font-family: 'Roboto Mono';
+}
+
+body {
+    line-height: 1;
+    
+}
+
+.top{
+    display :inline-block;
+}
+.header-right{
+      float: right;
+      padding-right: 1rem;
+      padding-top: 1rem;
+      text-align: center;
+
+}
+  /*.links{
+        display: inline-block;
+
+  }*/
+ .plan{ 
+        display: inline-block;
+        background: #FF764E;
+        color: white;
+        text-align: center;
+        font-size: 1rem;
+        border-radius: 20px;
+        padding: 5px;
+        width:  250px;
+        height: 150px;
+        margin: 5% 5%;
+ }     
+    .learn{
+        display: inline-block;
+        background: #5ed3eb;
+        color: white;
+        text-align: center;
+        border-radius: 10px;
+        padding: 5px;
+        width: 200px;
+        height: 150px;
+        margin: 5% 5%;
+ }     
+      .involve{  
+        display: inline-block;     
+        background:  #FFCD69;
+        color:white;
+        text-align: center;
+        border-radius: 20px;
+        padding: 5px;
+        width: 200px;
+        height: 150px;
+        margin: 5% 5%;
+      }
+
+h1{
+    font-family: 'Chelsa Market',Regular;
+    font-size: 4rem;
+    margin: 1%;
+}
+
+/*{.mainclass{
+    width: 5px;
+    height: 5px;       
+    display: inline-block; 
+    border-radius: 50%;}*/
+
+
+ .a{
+    
+    display: inline-block; 
+    text-align: center;
+    width: 100px;
+    height: 150px;
+    margin-left: 10%;
+    margin-right: 10%;
+     
+}
+
+ .b{
+     display: inline-block;
+    text-align: center;
+    width: 100px;
+    height: 150px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10px;
+    
+     
+}
+.main-content{
+    font-size: 10px;
+    background: grey;
+    padding: 5% 5% 5% 5%;
+    border-style: solid;
+    border-width: 2px;
+}
+.bottom .plan{ 
+    display: inline-block;
+    background: #FF764E;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 20px;
+    padding: 5px;
+    width:  250px;
+    height: 150px;
+    margin: 5% 5%;
+
+}
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
